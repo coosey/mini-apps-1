@@ -1,0 +1,22 @@
+{
+  "name": "multistep-checkout",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Matt",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "build": "./node_modules/.bin/babel client --watch --out-dir public --presets @babel/preset-react --source-maps inline",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.2",
+    "nodemon": "^2.0.14"
+  }
+}
